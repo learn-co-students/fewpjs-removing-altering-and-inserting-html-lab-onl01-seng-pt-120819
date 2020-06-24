@@ -1,3 +1,7 @@
-element.remove('main');
-let header = document.getElementById("h1#victory");
-header.innerHTML = "<h1>Dwane is the champion</h1>";
+const main = document.querySelector('main#main').remove()
+
+const newHeader = document.createElement("h1");
+
+newHeader.setAttribute("id", "victory");
+
+newHeader.innerHTML = 'Dwane is the champion';
